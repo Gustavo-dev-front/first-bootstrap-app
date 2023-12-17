@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  color: inherit;
+}
+
+body {
+  min-height: 100vh;
+}
+
+img {
+  object-fit: cover;
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+header img {
+  width: 100px;
+}
+
+header {
+  box-shadow: 0 0 10px 1px rgb(0, 0, 0, .1);
+}
+
+.carousel {
+  margin: auto;
+}
+
+.carousel img {
+  border-radius: 4px;
+}
